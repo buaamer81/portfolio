@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Rami Buaamer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="bg-primary text-white text-center p-4">
+        <h1>Contact Me</h1>
+    </header>
+
+    <main class="container my-5">
+        <p>If you’d like to connect, feel free to send me a message or visit my profiles below:</p>
+
+        <!-- Contact Form -->
+        <form action="https://formspree.io/f/{YOUR_FORM_ID}" method="POST" class="mb-5">
+            <div class="mb-3">
+                <label for="name" class="form-label">Your Name</label>
+                <input type="text" class="form-control" id="name" name="name" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Your Email</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Your Message</label>
+                <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send</button>
+        </form>
+
+        <!-- External Links -->
+        <div>
+            <a href="https://www.linkedin.com/in/{YOUR_LINKEDIN_ID}" class="btn btn-secondary me-2" target="_blank">LinkedIn</a>
+            <a href="https://github.com/{YOUR_GITHUB_USERNAME}" class="btn btn-dark" target="_blank">GitHub</a>
+        </div>
+    </main>
+
+    <footer class="text-center bg-dark text-white p-4">
+        <p>&copy; 2024 Rami Buaamer. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
