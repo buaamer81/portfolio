@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #007bff;
+    color: white;
+}
+
+footer {
+    background: #343a40;
+    color: white;
+    margin-top: 20px;
+}
+
+main a.btn-primary {
+    margin-top: 20px;
+}
